@@ -13,6 +13,8 @@
 		93FD8CB2238CB13500DB721A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FD8CB0238CB13500DB721A /* Main.storyboard */; };
 		93FD8CB4238CB13600DB721A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93FD8CB3238CB13600DB721A /* Assets.xcassets */; };
 		93FD8CB7238CB13600DB721A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FD8CB5238CB13600DB721A /* LaunchScreen.storyboard */; };
+		93FD8CBF238CBA7600DB721A /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD8CBE238CBA7600DB721A /* QuizViewController.swift */; };
+		93FD8CC12394CF8400DB721A /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD8CC02394CF8400DB721A /* SplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		93FD8CB3238CB13600DB721A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93FD8CB6238CB13600DB721A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93FD8CB8238CB13600DB721A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93FD8CBE238CBA7600DB721A /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		93FD8CC02394CF8400DB721A /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				93FD8CAA238CB13500DB721A /* AppDelegate.swift */,
 				93FD8CAC238CB13500DB721A /* SceneDelegate.swift */,
+				93FD8CC02394CF8400DB721A /* SplashScreenViewController.swift */,
 				93FD8CAE238CB13500DB721A /* ViewController.swift */,
+				93FD8CBE238CBA7600DB721A /* QuizViewController.swift */,
 				93FD8CB0238CB13500DB721A /* Main.storyboard */,
 				93FD8CB3238CB13600DB721A /* Assets.xcassets */,
 				93FD8CB5238CB13600DB721A /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				93FD8CAF238CB13500DB721A /* ViewController.swift in Sources */,
 				93FD8CAB238CB13500DB721A /* AppDelegate.swift in Sources */,
 				93FD8CAD238CB13500DB721A /* SceneDelegate.swift in Sources */,
+				93FD8CC12394CF8400DB721A /* SplashScreenViewController.swift in Sources */,
+				93FD8CBF238CBA7600DB721A /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
