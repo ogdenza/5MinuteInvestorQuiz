@@ -15,6 +15,11 @@
 		93FD8CB7238CB13600DB721A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FD8CB5238CB13600DB721A /* LaunchScreen.storyboard */; };
 		93FD8CBF238CBA7600DB721A /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD8CBE238CBA7600DB721A /* QuizViewController.swift */; };
 		93FD8CC12394CF8400DB721A /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD8CC02394CF8400DB721A /* SplashScreenViewController.swift */; };
+		93FD8CC5239753E100DB721A /* ViewExplanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD8CC4239753E100DB721A /* ViewExplanationViewController.swift */; };
+		93FD8CC72397587000DB721A /* TopicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD8CC62397587000DB721A /* TopicData.swift */; };
+		93FD8CC923977BA100DB721A /* QuizCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD8CC823977BA100DB721A /* QuizCompleteViewController.swift */; };
+		93FD8CCB239CD91200DB721A /* CompletedTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD8CCA239CD91100DB721A /* CompletedTopics.swift */; };
+		93FD8CCD239D511900DB721A /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD8CCC239D511900DB721A /* Topic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		93FD8CB8238CB13600DB721A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93FD8CBE238CBA7600DB721A /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		93FD8CC02394CF8400DB721A /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		93FD8CC4239753E100DB721A /* ViewExplanationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExplanationViewController.swift; sourceTree = "<group>"; };
+		93FD8CC62397587000DB721A /* TopicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicData.swift; sourceTree = "<group>"; };
+		93FD8CC823977BA100DB721A /* QuizCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCompleteViewController.swift; sourceTree = "<group>"; };
+		93FD8CCA239CD91100DB721A /* CompletedTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTopics.swift; sourceTree = "<group>"; };
+		93FD8CCC239D511900DB721A /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +72,14 @@
 			children = (
 				93FD8CAA238CB13500DB721A /* AppDelegate.swift */,
 				93FD8CAC238CB13500DB721A /* SceneDelegate.swift */,
+				93FD8CC62397587000DB721A /* TopicData.swift */,
+				93FD8CCC239D511900DB721A /* Topic.swift */,
+				93FD8CCA239CD91100DB721A /* CompletedTopics.swift */,
 				93FD8CC02394CF8400DB721A /* SplashScreenViewController.swift */,
 				93FD8CAE238CB13500DB721A /* ViewController.swift */,
 				93FD8CBE238CBA7600DB721A /* QuizViewController.swift */,
+				93FD8CC4239753E100DB721A /* ViewExplanationViewController.swift */,
+				93FD8CC823977BA100DB721A /* QuizCompleteViewController.swift */,
 				93FD8CB0238CB13500DB721A /* Main.storyboard */,
 				93FD8CB3238CB13600DB721A /* Assets.xcassets */,
 				93FD8CB5238CB13600DB721A /* LaunchScreen.storyboard */,
@@ -144,7 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FD8CC923977BA100DB721A /* QuizCompleteViewController.swift in Sources */,
+				93FD8CCD239D511900DB721A /* Topic.swift in Sources */,
 				93FD8CAF238CB13500DB721A /* ViewController.swift in Sources */,
+				93FD8CC5239753E100DB721A /* ViewExplanationViewController.swift in Sources */,
+				93FD8CC72397587000DB721A /* TopicData.swift in Sources */,
+				93FD8CCB239CD91200DB721A /* CompletedTopics.swift in Sources */,
 				93FD8CAB238CB13500DB721A /* AppDelegate.swift in Sources */,
 				93FD8CAD238CB13500DB721A /* SceneDelegate.swift in Sources */,
 				93FD8CC12394CF8400DB721A /* SplashScreenViewController.swift in Sources */,
