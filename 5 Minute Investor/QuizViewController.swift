@@ -30,7 +30,7 @@ class QuizViewController: UIViewController {
     var questionTwoCorrect: Bool!
     var questionThreeCorrect: Bool!
     var isCorrectArray: [Int]!
-    var indPath: Int!
+//    var indPath: Int!
     
     var topicData: TopicData!
     
@@ -52,7 +52,7 @@ class QuizViewController: UIViewController {
             displayQuestionsAndAnswers()
         }
         
-        print(indPath)
+//        print(indPath)
         
     }
     
@@ -95,7 +95,7 @@ class QuizViewController: UIViewController {
         if segue.identifier == "ShowQuizComplete" {
             let destination = segue.destination as! QuizCompleteViewController
             destination.correctArray = [questionOneCorrect, questionTwoCorrect, questionThreeCorrect]
-            destination.indPath = indPath
+//            destination.indPath = indPath
         }
     }
     

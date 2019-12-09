@@ -8,6 +8,6 @@
 
 import Foundation
 
-struct CompTops {
-    var completedTopics: [Int]
-}
+//struct CompTops {
+//    var completedTopics: [Int]
+//}

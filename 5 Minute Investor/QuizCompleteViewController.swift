@@ -23,7 +23,7 @@ class QuizCompleteViewController: UIViewController {
     var correctArray: [Bool]!
     var totalCorrect = 0
     var audioPlayer = AVAudioPlayer()
-    var indPath: Int!
+//    var indPath: Int!
     
     
     override func viewDidLoad() {
@@ -31,7 +31,7 @@ class QuizCompleteViewController: UIViewController {
         view.backgroundColor = UIColor(patternImage: UIImage(named: "cbGradient")!)
         
         continueButton.layer.masksToBounds = true
-        continueButton.layer.cornerRadius = 30
+        continueButton.layer.cornerRadius = 25
         
         
         
@@ -99,7 +99,7 @@ class QuizCompleteViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowTableViewAgain" {
             let destination = segue.destination as! ViewController
-            destination.indPath = indPath
+//            destination.indPath = indPath
         }
 
 

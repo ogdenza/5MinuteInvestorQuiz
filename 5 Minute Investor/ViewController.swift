@@ -12,9 +12,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var chooseTopicLabel: UILabel!
-    var indPath = -1
+//    var indPath = -1
     var topics: [TopicData] = []
-    var completedTopics: [CompTops] = []
+//    var completedTopics: [CompTops] = []
     
     var topicsArray = ["Why Invest?", "Stock", "Stock Market", "Stock Price/Symbol", "Public v. Private Company", "How to Buy a Stock", "Portfilio", "Capital Gain & ROI", "Risk ", "3 Pillar Investment Thesis", "Tips to save money to invest", "Index", "Bull/Bear Market", "Market Capitalization", "Blue Chip Stocks, Growth Stocks", "Sector/Industry", "Diversification", "Dividends & Dividend Yield", "Dividend Investing", "Balance Sheet", "Income Statement", "EPS, Earnings, Revenue", "Earnings date", "How to keep up with current business news", "Shares Outstanding, Bid, Ask, Spread", "Open/Close, Intraday Range, Volume", "P/E Ratio", "Mutual Funds", "ETFs", "Bonds", "Beta, Volatility, Vix", "Alpha, 52 Week Change / S&P 52 Week Change", "Short selling", "Day Trading", "Options", "Cryptocurrency, Blockchain", "Price Target ", "Analyst Recommendations", "Analyst Upgrade or Downgrade or Initiate", "Investment Time Horizons", "Management Effectiveness", "Undervalued/Overvalued", "10k/10q", "Assets, Liabilities", "Current Ratio", "Expenses & Profit Margin", "Operating Cash Flow", "Liquidity", "Market & Limit Orders", "Good-till Canceled & Good-till Date Orders", "Stop Loss & Stop Limit", "Merger", "Acquisition", "IPO", "Payout Ratio", "Dividend Dates", "Dividend Capturing", "Stock Split", "Stock Buyback", "Cost of Revenue & Gross Profit", "EBIT and EBITDA", "Calls", "Puts", "Activist Investor", "Commodities", "Arbitrage", "Impact Investing", "Real Estate Investing", "Penny Stocks", "Technical Investing", "Technical Patterns", "Corporate Tax Cuts", "Taxes on Dividends and Capital Gains", "Inflation", "Interest Rates", "Recessions", "Consumer Confidence, Consumer Sentiment", "Yield Curve", "Insider Trading & Insider Transactions", "Bubbles", "Trading on Margin", "2018 Recession", "Hedge", "Rule of 72"]
     
@@ -112,8 +112,8 @@ class ViewController: UIViewController {
             }
         }
         
-        print(indPath)
-        updateCompleted()
+
+//        updateCompleted()
         loadFromUserDefaults()
     }
     
@@ -146,16 +146,17 @@ class ViewController: UIViewController {
             let destination = segue.destination as! QuizViewController
             let selectedIndexPath = tableView.indexPathForSelectedRow!
             destination.topicData = topics[selectedIndexPath.row]
-            destination.indPath = selectedIndexPath[1]
+//            destination.indPath = selectedIndexPath[1]
         }
     }
+
+//    func updateCompleted() {
+//        if indPath >= 0{
+//            topics[indPath].completed = "Completed"
+//            saveToUserDefaults()
+//        }
+//    }
     
-    func updateCompleted() {
-        if indPath >= 0{
-            topics[indPath].completed = "Completed"
-            saveToUserDefaults()
-        }
-    }
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
@@ -166,7 +167,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = topics[indexPath.row].topic
-        cell.detailTextLabel?.text = topics[indexPath.row].completed
+//        cell.detailTextLabel?.text = topics[indexPath.row].completed
         return cell
     }
     
